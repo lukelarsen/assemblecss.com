@@ -1,0 +1,36 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  USE GRIDS
+ *  FIXED WIDTH VALUES
+ */
+
+
+
+
+
+/*------------------------------------*\
+    !USE GRIDS
+\*------------------------------------*/
+
+$use-grids:                         false;
+
+
+
+
+
+/*------------------------------------*\
+    !FIXED WITH VALUES
+\*------------------------------------*/
+
+/**
+ * Set the widths you need in your layout here.
+ * These are px values.
+ * It will return classes like this: .grid__item--fixed-200
+ */
+
+$grid-fixed-widths: (
+    '200',
+    '400'
+);

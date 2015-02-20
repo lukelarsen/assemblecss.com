@@ -1,0 +1,63 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  USE NAVS
+ *  DESIGN VARIABLES
+ *  MODIFIER VARIABLES
+        Orientation
+        Type
+ */
+
+
+
+
+
+/*------------------------------------*\
+    !USE NAVS
+\*------------------------------------*/
+
+$use-navs:                          false;
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+$pagination-li-padding:             12px;
+$pagination-a-spacing:              12px;
+
+$breadcrumb-a-right:                10px;
+$breadcrumb-a-left:                 13px;
+
+
+
+
+
+/*------------------------------------*\
+    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Orientation
+ */
+$nav--fit:                          false;
+$nav--stacked:                      false;
+$nav--center:                       false;
+$nav--right:                        false;
+$nav--left:                         false;
+$nav--space-between:                false;
+$nav--space-around:                 false;
+
+
+/**
+ * ^Type
+ */
+$nav--keywords:                     false;
+$nav--pagination:                   false;
+$nav--breadcrumb:                   false;
+$nav--breadcrumb--path:             false;
+$nav--breadcrumb--custom:           false;

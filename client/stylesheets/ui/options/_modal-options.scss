@@ -1,0 +1,73 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  USE MODALS
+ *  DESIGN VARIABLES
+        Overlay
+        Modal Inner
+        Modal Close
+ *  MODAL FIXED WIDTHS
+ */
+
+
+
+
+
+/*------------------------------------*\
+    !USE MODALS
+\*------------------------------------*/
+
+$use-modals:                         false;
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Overlay
+ */
+$modal-overlay-color:    rgba(0, 0, 0, .6);
+
+
+/**
+ * ^Modal Inner
+ */
+$modal-inner-padding:              15px;
+$modal-inner-background-color:     #fff;
+
+
+/**
+ * ^Modal Close
+ */
+$modal-close-background-color:      #000;
+$modal-close-color:                 #fff;
+
+
+
+
+
+
+
+/*------------------------------------*\
+    !MODAL FIXED WIDTHS
+\*------------------------------------*/
+
+/**
+ * Set the widths you need in your layout here.
+ * These are px values.
+ * It will return classes like this:
+ * .modal__block-600{
+ *     max-width: 600px;
+ * }
+ */
+
+$modal-fixed-widths: (
+    '600',
+    '800'
+);
+

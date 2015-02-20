@@ -1,0 +1,81 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  USE TIPS
+ *  DESIGN VARIABLES
+ *  WIDTH VARIABLES
+ *  TRANSITION VARIABLES
+ *  PLACEMENT OPTIONS
+ */
+
+
+
+
+
+/*------------------------------------*\
+    !USE TIPS
+\*------------------------------------*/
+
+$use-tips:                          false;
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+$tip-background-color:              #002;
+$tip-text-color:                    #fff;
+$tip-close-background-color:        #666;
+$tip-close-background-hover-color:  #444;
+$tip-close-text-color:              #fff;
+$tip-close-text-hover-color:        #fff;
+$tip-padding:                       8px 10px 5px;
+$tip-font-size:                     12px;
+$tip-line-height:                   15px;
+
+
+
+
+
+/*------------------------------------*\
+    !WIDTH VARIABLES
+\*------------------------------------*/
+
+$tip-enable-width:                  false;
+$tip-width:                         210px;
+
+
+
+
+
+/*------------------------------------*\
+    !TRANSITION VARIABLES
+\*------------------------------------*/
+
+$tip-transition:                    .3s ease;
+
+
+
+
+
+/*------------------------------------*\
+    !PLACEMENT OPTIONS
+\*------------------------------------*/
+
+$tip-enable-top:                    true;
+$tip-top-position:                  20px;
+
+$tip-enable-bottom:                 true;
+$tip-bottom-position:               20px;
+
+// Using right or left will make the notification a fixed width.
+// Width value is set with $tip-width
+$tip-enable-right:                  true;
+$tip-right-position:                -$tip-width - 8;
+
+$tip-enable-left:                   true;
+$tip-left-position:                 -$tip-width - 33;

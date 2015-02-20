@@ -1,0 +1,90 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  USE BUTTONS
+ *  DESIGN VARIABLES
+ *  MODIFIER VARIABLES
+        Button Sizes
+        Button Types
+        Button Colors
+ */
+
+
+
+
+
+/*------------------------------------*\
+    !USE BUTTONS
+\*------------------------------------*/
+
+$use-buttons:                       false;
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+$btn-size-ratio:                    1.2;
+$btn-padding-sides:                 1.3em;
+$btn-default-font-size:             100%;
+$btn-border-size:                   1px;  // Is only used if  border-color is set in the color map below
+
+
+
+
+
+
+/*------------------------------------*\
+    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Button Sizes
+ */
+$btn--large:                        false;
+$btn--small:                        false;
+$btn--block:                        false;
+
+
+/**
+ * ^Button Types
+ */
+$btn--natural:                      false;
+$btn--disabled:                     false;
+$btn-group:                         false;
+
+
+/**
+ * ^Button Colors
+
+ *  Options
+ *      background: value
+ *      color: value
+ *      border-color: value
+ *      hover: map
+ *          background-hover: value
+ *          border-color-hover: value
+ */
+
+$button-colors: (
+    primary: (
+        background: color(#00f),
+        color: #fff,
+        border-color: #000,
+        hover: (
+            background-hover: color(#00f, light),
+            border-color-hover: #fff
+        )
+    ),
+    secondary: (
+        background: color(#808080),
+        color: color(#808080, dark),
+        hover: (
+            border-color-hover: color(#808080, dark)
+        )
+    )
+);

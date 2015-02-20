@@ -1,0 +1,73 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  USE NOTIFICATIONS
+ *  DESIGN VARIABLES
+ *  MODIFIER VARIABLES
+        Notification Position
+        Notification Colors
+ */
+
+
+
+
+
+/*------------------------------------*\
+    !USE NOTIFICATIONS
+\*------------------------------------*/
+
+$use-notifications:                 false;
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+$notification-width:                315px;
+$notification-font-size:            .8rem;
+$notification-padding:              7px 15px;
+$notification-close-color:          #fff;
+$notification-close-color-hover:    #000;
+$notification-space-from-edge:      20px;
+
+
+
+/*------------------------------------*\
+    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Notification Position
+ */
+$notification-bottom-right:         false;
+$notification-bottom-left:          false;
+$notification-top-right:            false;
+$notification-top-left:             false;
+
+/**
+ * ^Notification Colors
+ */
+$notification-colors: (
+    success: (
+        background: #008000,
+        color: #fff,
+        title-bar-background: #006400,
+        title-bar-color: #fff
+    ),
+    warning: (
+        background: #00f,
+        color: #fff,
+        title-bar-background: #8b0000,
+        title-bar-color: #fff
+    ),
+    info: (
+        background: #00f,
+        color: #fff,
+        title-bar-background: #00008b,
+        title-bar-color: #fff
+    )
+);

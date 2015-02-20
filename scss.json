@@ -1,0 +1,9 @@
+{
+  "useIndex" : true,
+  "indexFilePath" : "client/stylesheets/style.meteor.scss",
+  "enableAutoprefixer": true,
+  "autoprefixerOptions": {
+      "browsers": ["last 2 versions"],
+      "cascade": false
+  }
+}

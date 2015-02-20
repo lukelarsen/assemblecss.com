@@ -1,0 +1,33 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  COLOR PALETTE
+ */
+
+
+
+
+
+/*------------------------------------*\
+    !COLOR PALETTE
+\*------------------------------------*/
+
+/**
+ *  ^Get color example
+ *  color(blue, dark); --returns--> #1b3c64
+ */
+
+$color-palette: (
+    blue: (
+        base:       #3c76b9,
+        light:      #4a90e2,
+        dark:       #1b3c64,
+        contrast:   #fff
+    ),
+    gray: (
+        base:       #999,
+        light:      #ddd,
+        dark:       #666
+    )
+);
