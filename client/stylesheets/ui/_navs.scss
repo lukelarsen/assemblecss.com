@@ -55,5 +55,21 @@
     !NAVS
 \*------------------------------------*/
 
-// START YOUR NAV STYLES HERE
+.nav--left li{
+    margin-right: 15px;
+
+    a{
+        transition: color .5s ease-out;
+        color: color(pink, base);
+
+        &:hover{
+            color: color(pink, dark);
+        }
+    }
+}
+
+.nav .active a{
+    border-bottom: solid 2px color(pink, dark);
+    color: color(pink, dark);
+}
 

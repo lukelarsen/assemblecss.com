@@ -16,7 +16,7 @@
     !USE TYPE
 \*------------------------------------*/
 
-$use-type:                          false;
+$use-type:                          true;
 
 
 
@@ -40,6 +40,22 @@ $fonts: (
         src:    '../fonts/helvetica-neue.woff'
     )
     */
+    mission_gothic_regular: (
+        name: 'Mission Gothic Regular',
+        src:  'fonts/Mission_Gothic_Regular.woff'
+    ),
+    mission_gothic_regular_italic: (
+        name: 'Mission Gothic Regular Italic',
+        src:  'fonts/Mission_Gothic_Regular_Italic.woff'
+    ),
+    mission_gothic_light_italic: (
+        name: 'Mission Gothic Light Italic',
+        src:  'fonts/Mission_Gothic_Light_Italic.woff'
+    ),
+    mission_gothic_bold: (
+        name: 'Mission Gothic Bold',
+        src:  'fonts/Mission_Gothic_Bold.woff'
+    )
 );
 
 
@@ -48,7 +64,10 @@ $fonts: (
  *      These are used so you can use assign fonts to elements in your project
  */
 
-$font-sans:                         Helvetica, Arial, sans-serif !default;
+$font-sans:                         'Mission Gothic Regular', Helvetica, Arial, sans-serif !default;
+$font-sans-italic:                  'Mission Gothic Regular Italic', Helvetica, Arial, sans-serif !default;
+$font-sans-bold:                    'Mission Gothic Bold', Helvetica, Arial, sans-serif !default;
+$font-sans-light-italic:            'Mission Gothic Light Italic', Helvetica, Arial, sans-serif !default;
 $font-serif:                        Georgia, 'Times New Roman', serif !default;
 $font-mono:                         'Lucida Console', Monaco, monospace !default;
 $text-color:                        #000 !default;

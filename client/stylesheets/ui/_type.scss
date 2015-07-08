@@ -51,67 +51,63 @@ h6,
     font-weight: bold;
 }
 
-// [1] Applies a margin bottom that is a multiple of the vertical grid in EMs. The first argument is the font size context and the second is multiple of the vertical grid unit.
-// [2] Sets the type to one of the modular scale values and the second argument sets a unitless line-height as a multiple of the vertical grid.
-// [3] A generic media query for tablet size ranges.
-// [4] Applies a margin bottom that is the same vertical grid value as the mobile first rule.
-// [5] Sets the type to one of the modular scale values and the second argument sets a unitless line-height as a multiple of the vertical grid.
+// [1] The first value sets the line-height. The second is the font size. It's recommended to keep on the modular scale by using the $ms-upX/$ms-downX variables.
+// [2] Applies a margin bottom that is a multiple of the vertical grid in EMs. The first argument is the font size context and the second is multiple of the vertical grid unit.
 h1,
 .h1{
-    @include set-type(6, $ms-up2); // [2]
-    margin-bottom: em-rhythm(4, $ms-up2); // [1]
-
-    @media (min-width: 43.75em){
-        // [3]
-        @include set-type(8, $ms-up3); // [5]
-        margin-bottom: em-rhythm(4, $ms-up3); // [4]
-    }
-
-    @media (min-width: 56.25em){
-        @include set-type(10, $ms-up4);
-        margin-bottom: em-rhythm(4, $ms-up4);
-    }
+    @include set-type(6, $ms-up3); // [1]
+    margin-bottom: em-rhythm(4, $ms-up2); // [2]
+    color: color(gray, white);
+    font-family: $font-sans-light-italic;
 }
 
 h2,
 .h2{
-    @include set-type(5, $ms-up1);
-    margin-bottom: em-rhythm(4, $ms-up1);
-
-    @media (min-width: 43.75em){
-        @include set-type(6, $ms-up2);
-        margin-bottom: em-rhythm(4, $ms-up2);
-    }
-
-    @media (min-width: 56.25em){
-        @include set-type(8, $ms-up3);
-        margin-bottom: em-rhythm(4, $ms-up3);
-    }
+    @include set-type(8, $ms-up2);
+    margin-bottom: em-rhythm(3, $ms-up1);
+    color: color(pink, dark);
+    font-family: $font-sans-light-italic;
 }
+
+h2.underline,
+.h2.underline{
+    border-bottom: solid 2px color(pink, dark);
+}
+
 
 h3,
 .h3{
     @include set-type(5, $ms-up1);
-    margin-bottom: em-rhythm(4, $ms-up1);
+    margin-bottom: em-rhythm(4);
+    font-family: $font-sans-bold;
+    text-transform: uppercase;
+}
 
-    @media (min-width: 56.25em){
-        @include set-type(6, $ms-up2);
-        margin-bottom: em-rhythm(4, $ms-up2);
-    }
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6{
+    @include set-type(2);
+    margin-bottom: em-rhythm(3);
 }
 
 h4,
 .h4{
-    @include set-type(2);
-    margin-bottom: em-rhythm(2);
+    font-family: $font-sans-bold;
+}
+
+h5,
+.h5{
+    text-transform: uppercase;
 }
 
 h5,
 .h5,
 h6,
 .h6{
-    @include set-type(2, $ms-down1);
-    margin-bottom: em-rhythm(2);
+    font-family: $font-sans;
 }
 
 p{
@@ -168,4 +164,16 @@ hr{
     border: 0;
     border-top-style: solid;
     border-top-color: $text-color;
+}
+
+.italic{
+    font-family: $font-sans-light-italic;
+}
+
+.hero h1{
+    margin-top: 20px;
+}
+
+.hero h2{
+    margin-bottom: 23px;
 }

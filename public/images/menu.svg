@@ -1,0 +1,18 @@
+<svg width="34px" height="22px" viewBox="0 0 34 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Menu</title>
+    <defs></defs>
+    <g id="menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="menu-inner" sketch:type="MSArtboardGroup" transform="translate(-240.000000, -97.000000)">
+            <g id="menu-inner-content" sketch:type="MSLayerGroup" transform="translate(0.000000, 71.000000)">
+                <g id="icon-menu" transform="translate(240.000000, 26.000000)">
+                    <rect id="Rectangle-6" fill="#B92B4B" sketch:type="MSShapeGroup" x="0" y="18" width="7" height="3"></rect>
+                    <rect id="Rectangle-7" fill="#F26B96" sketch:type="MSShapeGroup" x="0" y="9" width="22" height="3"></rect>
+                    <rect id="Rectangle-8" fill="#F26B96" sketch:type="MSShapeGroup" x="0" y="0" width="17" height="3"></rect>
+                    <text id="MENU" sketch:type="MSTextLayer" font-family="Helvetica" font-size="9" font-weight="normal" fill="#B92B4B">
+                        <tspan x="8" y="21">MENU</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

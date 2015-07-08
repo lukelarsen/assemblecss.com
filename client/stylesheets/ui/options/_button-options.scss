@@ -18,7 +18,7 @@
     !USE BUTTONS
 \*------------------------------------*/
 
-$use-buttons:                       false;
+$use-buttons:                       true;
 
 
 
@@ -29,7 +29,7 @@ $use-buttons:                       false;
 \*------------------------------------*/
 
 $btn-size-ratio:                    1.2;
-$btn-padding-sides:                 1.3em;
+$btn-padding:                       0.7em 0.7em 0.6em; // can be a single or multiple value
 $btn-default-font-size:             100%;
 $btn-border-size:                   1px;  // Is only used if  border-color is set in the color map below
 
@@ -68,23 +68,24 @@ $btn-group:                         false;
  *      hover: map
  *          background-hover: value
  *          border-color-hover: value
+ *
+ *      You may use color(blue, dark) to choose colors.
+ *      See ui/options/_color-options.scss for the color map.
  */
 
 $button-colors: (
     primary: (
-        background: color(#00f),
-        color: #fff,
-        border-color: #000,
+        background: color(orange),
+        color: #FFF,
         hover: (
-            background-hover: color(#00f, light),
-            border-color-hover: #fff
+            background-hover: color(orange, dark),
         )
     ),
     secondary: (
-        background: color(#808080),
-        color: color(#808080, dark),
+        background: color(pink),
+        color: #FFF,
         hover: (
-            border-color-hover: color(#808080, dark)
+            background-hover: color(pink, dark),
         )
     )
 );

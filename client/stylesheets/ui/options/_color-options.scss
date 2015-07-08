@@ -19,15 +19,22 @@
  */
 
 $color-palette: (
-    blue: (
-        base:       #3c76b9,
-        light:      #4a90e2,
-        dark:       #1b3c64,
-        contrast:   #fff
+    orange: (
+        base:       #f06a56,
+        dark:       #EC371C,
+        light:      #F49081
+    ),
+    pink: (
+        base:       #f26b96,
+        dark:       #b92b4b,
+        light:      #F197B4
     ),
     gray: (
-        base:       #999,
-        light:      #ddd,
-        dark:       #666
+        base:       #e7e7e7,
+        dark:       #636363,
+        darker:     #4a4a4a,
+        light:      #f1f1f1,
+        lighter:    #f6f6f6,
+        white:      #fff
     )
 );

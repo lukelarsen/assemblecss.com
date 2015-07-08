@@ -7,6 +7,8 @@
         Class Options
         Example
  *  GRIDS
+        Equals
+        Single
 */
 
 
@@ -145,3 +147,49 @@
 
 // START YOUR GRIDS HERE
 
+/**
+ * ^Equals
+ */
+
+.g-equals{
+    @extend %grid;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.gc-equals-cell{
+    @extend %grid__item;
+}
+
+.g-equals--mobile-full{
+    @extend %grid--palm-full;
+
+    @include media-query(palm){
+        .align-right{
+            text-align: left;
+        }
+    }
+}
+
+
+
+
+
+/**
+ * ^Single
+ */
+
+.g-single{
+    @extend %grid;
+}
+
+.gc-single-cell{
+    @extend %grid__item--portable-full;
+    @extend %grid__item;
+    @extend %grid__item--fixed-630;
+    margin: 0 auto;
+
+    @include media-query(portable){
+        padding: 25px;
+    }
+}

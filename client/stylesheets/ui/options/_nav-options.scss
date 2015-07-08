@@ -17,7 +17,7 @@
     !USE NAVS
 \*------------------------------------*/
 
-$use-navs:                          false;
+$use-navs:                          true;
 
 
 
@@ -48,7 +48,7 @@ $nav--fit:                          false;
 $nav--stacked:                      false;
 $nav--center:                       false;
 $nav--right:                        false;
-$nav--left:                         false;
+$nav--left:                         true;
 $nav--space-between:                false;
 $nav--space-around:                 false;
 

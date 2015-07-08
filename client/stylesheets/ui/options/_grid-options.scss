@@ -14,7 +14,7 @@
     !USE GRIDS
 \*------------------------------------*/
 
-$use-grids:                         false;
+$use-grids:                         true;
 
 
 
@@ -31,6 +31,5 @@ $use-grids:                         false;
  */
 
 $grid-fixed-widths: (
-    '200',
-    '400'
+    '630'
 );

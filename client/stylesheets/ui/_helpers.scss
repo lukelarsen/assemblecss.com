@@ -1,0 +1,60 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  ALIGNMENT
+ *  COLORS
+*/
+
+
+
+
+
+/*------------------------------------*\
+    !ALIGNMENT
+\*------------------------------------*/
+
+.align-center{
+    text-align: center;
+    display: block;
+}
+
+.align-right{
+    text-align: right;
+}
+
+
+
+
+
+/*------------------------------------*\
+    !COLORS
+\*------------------------------------*/
+
+.orange{
+    color: color(orange);
+}
+
+.orange--dark{
+    color: color(orange, dark);
+}
+
+.orange--light{
+    color: color(orange, light);
+}
+
+.pink{
+    color: color(pink);
+}
+
+.pink--dark{
+    color: color(pink, dark);
+}
+
+.pink--light{
+    color: color(pink, light);
+}
+
+.white{
+    color: color(gray, white);
+}

@@ -1,0 +1,82 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  STICKY FOOTER
+ *  HEADER
+ *  HERO
+ *  FOOTER
+*/
+
+
+
+
+
+/*------------------------------------*\
+    $STICKY FOOTER
+\*------------------------------------*/
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/*------------------------------------*\
+    !HEADER
+\*------------------------------------*/
+
+header{
+    padding: 23px;
+    background-color: color(gray, lighter);
+}
+
+.header-icon{
+    margin-top: 12px;
+}
+
+
+
+
+
+/*------------------------------------*\
+    !HERO
+\*------------------------------------*/
+
+.hero{
+    margin-bottom: 50px;
+    padding: 30px 50px 18px;
+    background: color(orange, base) url('images/background-small.jpg') top center no-repeat;
+    text-align: center;
+}
+
+.hero--large{
+    padding: 125px 50px;
+    background: color(orange, base) url('images/background-large.jpg') top center no-repeat;
+}
+
+
+
+
+
+/*------------------------------------*\
+    !FOOTER
+\*------------------------------------*/
+
+footer{
+    padding: 52px;
+    background: #F35A81 url('images/background-small.jpg') top center no-repeat;
+
+    @include media-query(palm) {
+        padding: 25px;
+    }
+}
