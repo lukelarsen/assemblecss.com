@@ -25,11 +25,25 @@ $use-grids:                         true;
 \*------------------------------------*/
 
 /**
+ * ^Grid Fixed Widths
  * Set the widths you need in your layout here.
  * These are px values.
- * It will return classes like this: .grid__item--fixed-200
+ * It will return extends or classes like this: %grid--fixed-200
  */
 
-$grid-fixed-widths: (
+$grid-center-widths: (
     '630'
+    '980'
+);
+
+
+/**
+ * ^Grid Item Fixed Widths
+ * Set the widths you need in your layout here.
+ * These are px values.
+ * It will return extends or classes like this: %grid__item--fixed-200
+ */
+
+$grid-item-fixed-widths: (
+    '235'
 );

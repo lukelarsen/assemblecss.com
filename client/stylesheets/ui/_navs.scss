@@ -6,6 +6,7 @@
         HTML
         Class Options
  *  NAVS
+        Nav Stacked Sub
  */
 
 
@@ -55,11 +56,18 @@
     !NAVS
 \*------------------------------------*/
 
+a{
+    transition: color .5s ease-out;
+}
+
+/**
+ * ^Nav Left
+ */
+
 .nav--left li{
     margin-right: 15px;
 
     a{
-        transition: color .5s ease-out;
         color: color(pink, base);
 
         &:hover{
@@ -68,8 +76,98 @@
     }
 }
 
-.nav .active a{
+.nav--main .active a{
     border-bottom: solid 2px color(pink, dark);
     color: color(pink, dark);
 }
 
+
+/**
+ * ^Nav Stacked
+ */
+
+ .nav--stacked{
+    a{
+        color: color(gray, dark);
+
+        &:hover{
+            color: color(pink, dark);
+        }
+    }
+
+    > .active{
+        background-color: color(gray, base);
+
+        > a{
+            cursor: default;
+        }
+    }
+}
+
+ .nav--stacked--main{
+    background-color: color(gray, lighter);
+
+    > li{
+        border-left: solid 5px color(gray, lighter);
+        transition: border-left .5s ease-out;
+    }
+
+    > li > a{
+        padding: 6px 20px 4px 10px;
+        display: block;
+        width: 100%;
+    }
+
+    > li:first-child > a{
+        padding-top: 10px;
+    }
+
+    > li.active{
+        border-left: solid 5px color(pink, dark);
+
+        > a{
+            color: color(gray, dark);
+        }
+    }
+
+
+ }
+
+ // .nav--stacked--sub{
+ //    padding: 0;
+ //    background-color: transparent;
+
+ //    li{
+ //        border-left: none;
+ //        padding-left: 0;
+ //        padding-right: 0;
+ //        padding: 0;
+ //    }
+ // }
+
+
+/**
+ * ^Nav Stacked Sub
+ */
+
+.nav--stacked--sub{
+    margin-left: 15px;
+    // margin-bottom: 5px;
+
+    > li > a{
+        padding-left: 15px;
+        padding-bottom: 5px;
+        display: block;
+        width: 100%;
+        // color: #7c7c7c;
+    }
+
+    > li.active{
+        background: url('../images/active-sub.svg') no-repeat 0 7px;
+
+        a{
+            color: color(pink, dark);
+            cursor: default;
+        }
+    }
+}

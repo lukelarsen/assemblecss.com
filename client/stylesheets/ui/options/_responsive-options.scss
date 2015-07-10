@@ -21,9 +21,9 @@
  */
 $breakpoints: (
     'palm' '(max-width: 480px)',
-    'lap' '(min-width: 481px) and (max-width: 1023px)',
-    'portable' '(max-width: 1023px)', // both lap and palm
-    'desk' '(max-width: 1024px)',
+    'lap' '(min-width: 481px) and (max-width: 985px)',
+    'portable' '(max-width: 985px)', // both lap and palm
+    'desk' '(max-width: 986px)',
     'wide' '(min-width:1500px)'
 );
 
@@ -32,7 +32,7 @@ $breakpoints: (
  * Set where breakpoints start.
  */
 $lap-start:         481px;
-$desk-start:        1024px;
+$desk-start:        985px;
 $wide-start:        1500px;
 
 

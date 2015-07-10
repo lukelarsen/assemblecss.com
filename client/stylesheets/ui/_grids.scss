@@ -9,6 +9,7 @@
  *  GRIDS
         Equals
         Single
+        Sidebar Grid
 */
 
 
@@ -172,24 +173,51 @@
 }
 
 
-
-
-
 /**
  * ^Single
  */
+
+.content-single{
+    @extend %grid--center-630;
+
+    @include media-query(portable){
+        padding: 0 25px;
+    }
+}
 
 .g-single{
     @extend %grid;
 }
 
 .gc-single-cell{
+    @extend %grid__item;
+
+}
+
+
+/**
+ * ^Sidebar Grid
+ */
+
+ .content{
+    @extend %grid--center-980;
+
+    @include media-query(portable) {
+        padding: 0 25px;
+    }
+ }
+
+.g-sub{
+    @extend %grid;
+    @extend %gutters-medium;
+}
+
+.gc-sub-sidebar{
+    @extend %grid__item--portable-full;
+    @extend %grid__item--fixed-235;
+}
+
+.gc-sub-content{
     @extend %grid__item--portable-full;
     @extend %grid__item;
-    @extend %grid__item--fixed-630;
-    margin: 0 auto;
-
-    @include media-query(portable){
-        padding: 25px;
-    }
 }
