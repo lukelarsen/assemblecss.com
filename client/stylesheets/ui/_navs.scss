@@ -86,7 +86,7 @@ a{
  * ^Nav Stacked
  */
 
- .nav--stacked{
+.nav--stacked{
     a{
         color: color(gray, dark);
 
@@ -104,18 +104,18 @@ a{
     }
 }
 
- .nav--stacked--main{
+.nav--stacked--main{
     background-color: color(gray, lighter);
 
     > li{
-        border-left: solid 5px color(gray, lighter);
         transition: border-left .5s ease-out;
+        border-left: solid 5px color(gray, lighter);
     }
 
     > li > a{
-        padding: 6px 20px 4px 10px;
         display: block;
         width: 100%;
+        padding: 6px 20px 4px 10px;
     }
 
     > li:first-child > a{
@@ -129,21 +129,7 @@ a{
             color: color(gray, dark);
         }
     }
-
-
  }
-
- // .nav--stacked--sub{
- //    padding: 0;
- //    background-color: transparent;
-
- //    li{
- //        border-left: none;
- //        padding-left: 0;
- //        padding-right: 0;
- //        padding: 0;
- //    }
- // }
 
 
 /**
@@ -152,22 +138,20 @@ a{
 
 .nav--stacked--sub{
     margin-left: 15px;
-    // margin-bottom: 5px;
 
     > li > a{
-        padding-left: 15px;
-        padding-bottom: 5px;
         display: block;
         width: 100%;
-        // color: #7c7c7c;
+        padding-bottom: 5px;
+        padding-left: 15px;
     }
 
     > li.active{
         background: url('../images/active-sub.svg') no-repeat 0 7px;
 
         a{
-            color: color(pink, dark);
             cursor: default;
+            color: color(pink, dark);
         }
     }
 }
