@@ -5,6 +5,7 @@
  *  STICKY FOOTER
  *  HEADER
  *  HERO
+ *  EXAMPLE
  *  FOOTER
 */
 
@@ -62,6 +63,20 @@ header{
 .hero--large{
     padding: 125px 50px;
     background: color(orange, base) url('images/background-large.jpg') top center no-repeat;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $EXAMPLE
+\*------------------------------------*/
+
+.example{
+    background-color: color(gray, light);
+    padding: 15px 20px;
+    margin-bottom: 33px;
 }
 
 

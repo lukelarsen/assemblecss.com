@@ -15,7 +15,7 @@
     !USE CODE
 \*------------------------------------*/
 
-$use-code:                          false;
+$use-code:                          true;
 
 
 
@@ -25,17 +25,17 @@ $use-code:                          false;
     !DESIGN VARIABLES
 \*------------------------------------*/
 
-$code-background-color:             #f7f7f9;
+$code-background-color:             color(gray, light);
 
-$code-border:                       true;
+$code-border:                       false;
 $code-border-color:                 #c0c0c0;
 $code-border-size:                  1px;
 $code-border-type:                  solid;
 
-$code-color:                        #ad0d36;
-$code-padding:                      .5em;
+$code-color:                        color(gray, darker);
+$code-padding:                      .3em .9em;
 
-$code-inline-padding:               .2em .25em;
+$code-inline-padding:               .9em;
 
 $code-scroll-max-height:            20em;
 
@@ -47,4 +47,4 @@ $code-scroll-max-height:            20em;
     !MODIFIER VARIABLES
 \*------------------------------------*/
 
-$code-scrollable:                   false;
+$code-scrollable:                   true;

@@ -1,0 +1,25 @@
+<template name="usage">
+    <div class="hero">
+        <h1>Usage</h1>
+    </div>
+    <div class="content">
+        <div class="g-sub">
+            <div class="gc-sub-sidebar">
+                <ul class="nav  nav--stacked  nav--stacked--main">
+                    <li>
+                        <a href="{{pathFor 'install'}}">Install</a>
+                    </li>
+                    <li class="{{isActiveRoute 'usage'}}">
+                        <a href="{{pathFor 'usage'}}">Usage</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="gc-sub-content">
+                <h2>Using Assemble.css</h2>
+                <p>Assemble.css is very configurable. If you don't want a portion of the framework you don't have to include it in your css output. You shouldn't need to modify the contents you install via Bower or Meteor. All the configurations will happen in the assemble.css-template. Within stylesheets/ui/options you can set all the variables that will include the css code for the components you want. Everything is excluded by default so you will need to go and set the components you want to true. You may also set some design options by editing the design variables in specific option files.</p>
+
+                <p>One design variable that often needs updating is $webkit-select-arrow. It looks for an image to use as a background-image for select boxes. If you move your image dirctory around you'll need to update this variable to point to the svg file.</p>
+            </div>
+        </div>
+    </div>
+</template>

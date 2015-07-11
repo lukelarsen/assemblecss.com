@@ -15,7 +15,7 @@
     !USE LIST
 \*------------------------------------*/
 
-$use-list:                          false;
+$use-list:                          true;
 
 
 
@@ -25,8 +25,10 @@ $use-list:                          false;
     !DESIGN VARIABLES
 \*------------------------------------*/
 
-$list-colored-color:                #f00;
-$list-colored-padding-left:         40px;
+$list-colored-color:                color(pink, base);
+$list-colored-top:                  3px;
+$list-colored-size:                 .75em;
+$list-colored-padding-left:         30px;
 
 
 
@@ -37,4 +39,4 @@ $list-colored-padding-left:         40px;
 \*------------------------------------*/
 
 $list-no-bullets:                   false;
-$list-colored:                      false;
+$list-colored:                      true;

@@ -32,6 +32,15 @@ body{
     line-height: $base-line-height;
 }
 
+a{
+    color: color(orange, base);
+    transition: color .5s ease-out;
+
+    &:hover{
+        color: color(orange, dark);
+    }
+}
+
 h1,
 .h1,
 h2,
@@ -67,6 +76,7 @@ h2,
     margin-bottom: em-rhythm(3, $ms-up1);
     color: color(pink, dark);
     font-family: $font-sans-light-italic;
+    border-bottom: solid 1px color(pink, dark);
 }
 
 h2.underline,
@@ -78,7 +88,7 @@ h2.underline,
 h3,
 .h3{
     @include set-type(5, $ms-up1);
-    margin-bottom: em-rhythm(4);
+    margin-bottom: em-rhythm(2);
     font-family: $font-sans-bold;
     text-transform: uppercase;
 }
@@ -95,16 +105,18 @@ h6,
 
 h4,
 .h4{
+    color: color(orange, base);
     font-family: $font-sans-bold;
-}
-
-h5,
-.h5{
     text-transform: uppercase;
 }
 
 h5,
-.h5,
+.h5{
+    @include set-type(2);
+    font-family: $font-sans-light-italic;
+    color: color(pink, dark);
+}
+
 h6,
 .h6{
     font-family: $font-sans;
@@ -176,4 +188,9 @@ hr{
 
 .hero h2{
     margin-bottom: 23px;
+    border: none;
+}
+
+.pink-base{
+    color: color(pink, base);
 }

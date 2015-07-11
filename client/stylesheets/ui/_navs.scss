@@ -56,10 +56,6 @@
     !NAVS
 \*------------------------------------*/
 
-a{
-    transition: color .5s ease-out;
-}
-
 /**
  * ^Nav Left
  */
@@ -119,7 +115,7 @@ a{
     }
 
     > li:first-child > a{
-        padding-top: 10px;
+        padding-top: 7px;
     }
 
     > li.active{
