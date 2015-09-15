@@ -1,0 +1,1 @@
+@GetStartedPages = new (Mongo.Collection)('getStartedPages')

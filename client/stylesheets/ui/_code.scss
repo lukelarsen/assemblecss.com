@@ -48,6 +48,7 @@
 // START YOUR CODE STYLES HERE
 code{
     @include set-type(3, $ms-down1);
+    display: inline-block;
 }
 
 pre{

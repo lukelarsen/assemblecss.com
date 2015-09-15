@@ -2,15 +2,21 @@
     CONTENTS
 \*------------------------------------*/
 /**
- *  USE RESET
+ *  SCROLLBARS
  */
+
+////
+/// @group resets
+////
 
 
 
 
 
 /*------------------------------------*\
-    !USE RESET
+    !SCROLLBARS
 \*------------------------------------*/
 
-$use-reset:                         true;
+/// Turn on/off if you want internal scrollbars to always show.
+/// Anything you want scrollbars to show on you will need to put inside a .show-scrollbars class.
+$always-show-scrollbars:            true;

@@ -6,6 +6,12 @@
  *  RESPONSIVE MIXIN
  */
 
+////
+/// @group responsive
+/// @link http://csswizardry.com/csswizardry-grids/
+/// @author Harry Roberts
+////
+
 
 
 
@@ -14,11 +20,8 @@
     !RESPONSIVE SETTINGS
 \*------------------------------------*/
 
-/**
- * These came from CSS Wizardry Grids - http://csswizardry.com/csswizardry-grids/
- *
- * Define your breakpoints.
- */
+/// Define your breakpoints here.
+/// @type map
 $breakpoints: (
     'palm' '(max-width: 480px)',
     'lap' '(min-width: 481px) and (max-width: 985px)',
@@ -31,8 +34,17 @@ $breakpoints: (
 /**
  * Set where breakpoints start.
  */
+
+/// Set where the lap breakpoint starts.
+/// @type number
 $lap-start:         481px;
+
+/// Set where the desk breakpoint starts.
+/// @type number
 $desk-start:        985px;
+
+/// Set where the wide breakpoint starts.
+/// @type number
 $wide-start:        1500px;
 
 
@@ -42,8 +54,17 @@ $wide-start:        1500px;
  * If $use-silent-classes is set to false it will make regular classes instead of
  * silent classes.
  */
+
+/// Breakpoint width names
+/// @type map
 $breakpoint-has-widths: ('palm', 'lap', 'portable', 'desk', 'wide');
+
+/// Set if you'd like to placeholders for responsiveness.
+/// @type boolean
 $use-silent-classes:    true;
+
+/// Set what you'd like to use for your responsive classes.
+/// @type string
 $class-type:            unquote('.');
 @if $use-silent-classes == true{
     $class-type:        unquote('%') !global;
@@ -86,9 +107,18 @@ $class-type:            unquote('.');
  *
  * We work out your end points for you:
  */
+
+/// Set the palm end value. This value is created dynamically.
+/// @type number
 $palm-end:              $lap-start - 1px;
+
+/// Set the lap end value. This value is created dynamically.
+/// @type number
 $lap-end:               $desk-start - 1px;
 
+/// This mixing will be used to call your responsive breakpoints.
+/// @access private
+/// @param {string} $media-query
 @mixin media-query($media-query){
 
     @if $media-query == palm{

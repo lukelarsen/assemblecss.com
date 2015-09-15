@@ -18,6 +18,11 @@
  *  color(blue, dark); --returns--> #1b3c64
  */
 
+/// A variable map to hold all our color values. Found in ui/options/_color-options.scss
+/// @group colors
+/// @prop {map} map - Parent color
+/// @prop {color} key - Hue of the parent color
+/// @type map
 $color-palette: (
     orange: (
         base:       #f06a56,

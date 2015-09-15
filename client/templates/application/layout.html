@@ -7,13 +7,14 @@
             <div class="gc-equals-cell">
                 <div class="header-icon">
                     <ul class="nav  nav--left  nav--main">
-                        <li class="{{isActiveRoute regex='install|usage'}}"><a href="{{pathFor 'install'}}">Get Started</a></li>
-                        <li class="{{isActiveRoute 'docs'}}"><a href="{{pathFor 'docs'}}">Docs</a></li>
+                        <li class="{{ isActive path='^\\/get-started' regex=true }}"><a href="/get-started/dnCXHNjwLCDaMBoN2">Get Started</a></li>
+                        <li class="{{ isActive path='^\\/components' regex=true }}"><a href="{{ pathFor 'componentsList' }}">Components</a></li>
+                        <li class="{{ isActive path='^\\/utilities' regex=true }}"><a href="{{ pathFor 'utilitiesList' }}">Utilities</a></li>
                     </ul>
                 </div>
             </div>
             <div class="gc-equals-cell  align-center">
-                <a href="{{pathFor 'home'}}">
+                <a href="{{ pathFor 'home' }}">
                     <svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <title>Assemble.css</title>
                         <defs>
@@ -73,7 +74,7 @@
                 Licensed under the MIT license
             </div>
             <div class="gc-equals-cell  align-right">
-                Organized and maintained by <a class="white" href="http://twitter.com/lukelarsen" target="_blank">@lukelarsen</a>
+                Organized and created by <a class="white" href="http://twitter.com/lukelarsen" target="_blank">@lukelarsen</a>
             </div>
         </div>
     </footer>

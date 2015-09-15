@@ -88,13 +88,18 @@ h2.underline,
 h3,
 .h3{
     @include set-type(5, $ms-up1);
-    margin-bottom: em-rhythm(2);
+    margin-bottom: em-rhythm(3);
     font-family: $font-sans-bold;
-    text-transform: uppercase;
 }
 
 h4,
-.h4,
+.h4{
+    @include set-type(3);
+    margin-bottom: em-rhythm(3);
+    color: color(gray, darkest);
+    font-family: $font-sans-bold-italic;
+}
+
 h5,
 .h5,
 h6,
@@ -103,23 +108,19 @@ h6,
     margin-bottom: em-rhythm(3);
 }
 
-h4,
-.h4{
-    color: color(orange, base);
-    font-family: $font-sans-bold;
-    text-transform: uppercase;
-}
 
 h5,
 .h5{
-    @include set-type(2);
-    font-family: $font-sans-light-italic;
+    @include set-type(1);
     color: color(pink, dark);
+    font-family: $font-sans-bold;
+    text-transform: uppercase;
 }
 
 h6,
 .h6{
     font-family: $font-sans;
+    text-transform: uppercase;
 }
 
 p{
@@ -193,4 +194,15 @@ hr{
 
 .pink-base{
     color: color(pink, base);
+}
+
+.orange-base{
+    color: color(orange, base);
+}
+
+.hint{
+    margin-top: 5px;
+    @include set-type(3, $ms-down1);
+    color: color(gray, dark);
+    font-family: $font-sans-italic;
 }

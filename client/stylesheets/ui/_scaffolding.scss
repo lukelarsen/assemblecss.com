@@ -5,7 +5,7 @@
  *  STICKY FOOTER
  *  HEADER
  *  HERO
- *  EXAMPLE
+ *  SECTION
  *  FOOTER
 */
 
@@ -14,7 +14,7 @@
 
 
 /*------------------------------------*\
-    $STICKY FOOTER
+    !STICKY FOOTER
 \*------------------------------------*/
 
 body{
@@ -25,7 +25,6 @@ body{
 
 main{
     flex: 1;
-    margin-bottom: 50px;
 }
 
 
@@ -68,16 +67,24 @@ header{
 
 
 
-
 /*------------------------------------*\
-    $EXAMPLE
+    !SECTION
 \*------------------------------------*/
 
-.example{
-    background-color: color(gray, light);
-    padding: 15px 20px;
-    margin-bottom: 33px;
+section{
+    margin-bottom: 60px;
 }
+
+.component-section,
+.component-sub-section{
+    margin-bottom: 30px;
+}
+
+.rendered{
+    padding: .7em;
+    background-color: color(gray, light);
+}
+
 
 
 

@@ -6,6 +6,10 @@
  *  FIXED WIDTH VALUES
  */
 
+////
+/// @group grids
+////
+
 
 
 
@@ -14,6 +18,8 @@
     !USE GRIDS
 \*------------------------------------*/
 
+/// Turn on/off grids for your application
+/// @type boolean
 $use-grids:                         true;
 
 
@@ -25,12 +31,18 @@ $use-grids:                         true;
 \*------------------------------------*/
 
 /**
- * ^Grid Fixed Widths
+ * ^Grid Center Widths
  * Set the widths you need in your layout here.
  * These are px values.
  * It will return extends or classes like this: %grid--fixed-200
+ * The resulting css will be:
+ * max-width: XXXpx;
+ * margin: 0 auto;
  */
 
+/// If you need fixed width centered grids you can set the widths here and placeholders will be generated.
+/// ex. %grid--fixed-800
+/// @type map
 $grid-center-widths: (
     '630'
     '980'
@@ -44,6 +56,9 @@ $grid-center-widths: (
  * It will return extends or classes like this: %grid__item--fixed-200
  */
 
+/// If you need fixed width grid itemsyou can set the widths here and placeholders will be generated.
+/// ex. %grid__item--fixed-200
+/// @type map
 $grid-item-fixed-widths: (
     '235'
 );

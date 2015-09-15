@@ -1,0 +1,72 @@
+<template name="utilityPage">
+    {{ > hero }}
+    <div class="content">
+        <div class="g-sub">
+            <div class="gc-sub-sidebar">
+                <ul class="nav  nav--stacked  nav--stacked--main">
+                    {{ #each utilities }}
+                        {{ > utilityItem}}
+                    {{ /each }}
+                </ul>
+            </div>
+            <div class="gc-sub-content">
+                <section>
+                    <h2>{{ title }}</h2>
+
+                    {{ #if requirements }}
+                        <div class="component-section">
+                            <h4>Requirements</h4>
+                            <ul class="list-colored  list-gray">
+                                {{ #each requirements }}
+                                <li>{{ requirement }}</li>
+                                {{ /each }}
+                            </ul>
+                        </div>
+                    {{ /if }}
+
+                    <h4>Examples</h4>
+                    {{ #if examples_html }}
+                        <div class="component-section">
+                            <h5 class="orange-base">HTML</h5>
+                            {{ #each examples_html }}
+                                {{ #if example }}
+                                    <code>{{ example }}</code>
+                                {{ /if }}
+                                {{ #if message }}
+                                    <p class="hint">{{ message }}</p>                                {{ /if }}
+                            {{ /each }}
+                        </div>
+                    {{ /if }}
+
+                    {{ #if examples_sass }}
+                        <div class="component-section">
+                            <h5 class="pink-base">Sass</h5>
+                            {{ #each examples_sass }}
+                                {{ #if example }}
+                                    <code>{{ example }}</code>
+                                {{ /if }}
+                                {{ #if message }}
+                                    <p class="hint">{{ message }}</p>
+                                {{ /if }}
+                            {{ /each }}
+                        </div>
+                    {{ /if }}
+
+                    {{ #if examples_sass }}
+                        <div class="component-section">
+                            <h5>Rendered</h5>
+                            {{ #each examples_rendered }}
+                                <code>{{ rendered }}</code>
+                            {{ /each }}
+                        </div>
+                    {{ /if }}
+
+                    {{ #if options }}
+                        {{ > options }}
+                    {{ /if }}
+
+                </section>
+            </div>
+        </div>
+    </div>
+</template>

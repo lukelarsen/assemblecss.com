@@ -7,6 +7,10 @@
  *  DESIGN VARIABLES
  */
 
+////
+/// @group icons
+////
+
 
 
 
@@ -28,6 +32,8 @@
     !USE ICONS
 \*------------------------------------*/
 
+/// Turn on/off icons for your application
+/// @type boolean
 $use-icons:                         false;
 
 
@@ -38,9 +44,20 @@ $use-icons:                         false;
     !DESIGN VARIABLES
 \*------------------------------------*/
 
-// make sure to use em when sizing so they
-// can scale to how they are being used.
+/// Default icon size.
+/// Be sure to use em so the icon can scale to the size it needs.
+/// @type number
 $icon-default-size:                 .8em;
+
+/// Default icon color.
+/// @type color
 $icon-default-color:                #000;
+
+/// When an icon is used in a h1 - h6 set the vertical alignment.
+/// @type number
 $icon-header-vertical-align:        -.05em;
+
+/// Set the size of the close icon.
+/// Be sure to use em so the icon can scale to the size it needs.
+/// @type number
 $icon-close-notification-size:      1em;

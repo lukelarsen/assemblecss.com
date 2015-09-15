@@ -89,5 +89,7 @@
     !TABLES
 \*------------------------------------*/
 
-// START YOUR TABLE STYLES HERE
-
+.table thead th{
+  background-color: color(gray, dark);
+  color: color(gray, white);
+}

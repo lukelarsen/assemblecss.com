@@ -1,0 +1,44 @@
+<template name="componentPageItem">
+    <h3>{{ title }}</h3>
+
+    {{ #if requirements }}
+        <div class="component-section">
+            <h4>Requirements</h4>
+            <ul>
+                {{ #each requirements }}
+                <li>{{ requirement }}</li>
+                {{ /each }}
+            </ul>
+        </div>
+    {{ /if }}
+
+    <div class="component-section">
+        <h4>Examples</h4>
+        {{ #if example.html }}
+            <div class="component-sub-section">
+                <h5 class="orange-base">html</h5>
+                <code>
+                    {{ example.html }}<br>
+                </code>
+            </div>
+        {{ /if }}
+
+        {{ #if example.sass }}
+            <div class="component-sub-section">
+                <h5 class="pink-base">sass</h5>
+                <code>
+                    {{ example.sass }}<br>
+                </code>
+            </div>
+        {{ /if }}
+
+        {{ #if example.rendered }}
+            <div class="component-sub-section">
+                <h5>Rendered</h5>
+                <div class="rendered">
+                    {{ example.rendered }}
+                </div>
+            </div>
+        {{ /if }}
+    </div>
+</template>

@@ -1,0 +1,22 @@
+<template name="getStartedPage">
+    {{ > hero }}
+    <div class="content">
+        <div class="g-sub">
+            <div class="gc-sub-sidebar">
+                <ul class="nav  nav--stacked  nav--stacked--main">
+                    {{ #each getStartedPages }}
+                        {{ > getStartedItem}}
+                    {{ /each }}
+                </ul>
+            </div>
+            <div class="gc-sub-content">
+                {{ #each sections }}
+                    <section>
+                        <h2>{{ title }}</h2>
+                        {{{ content }}}
+                    </section>
+                {{ /each }}
+            </div>
+        </div>
+    </div>
+</template>
