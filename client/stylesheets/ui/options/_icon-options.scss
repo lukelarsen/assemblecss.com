@@ -47,7 +47,7 @@ $use-icons:                         false;
 /// Default icon size.
 /// Be sure to use em so the icon can scale to the size it needs.
 /// @type number
-$icon-default-size:                 .8em;
+$icon-default-size:                 0.8em;
 
 /// Default icon color.
 /// @type color
@@ -55,7 +55,7 @@ $icon-default-color:                #000;
 
 /// When an icon is used in a h1 - h6 set the vertical alignment.
 /// @type number
-$icon-header-vertical-align:        -.05em;
+$icon-header-vertical-align:        -0.05em;
 
 /// Set the size of the close icon.
 /// Be sure to use em so the icon can scale to the size it needs.
