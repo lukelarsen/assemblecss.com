@@ -3,9 +3,9 @@ Router.configure
     loadingTemplate: 'loading',
     notFoundTemplate: 'notFound',
     waitOn: ->
+        Meteor.subscribe 'getStartedPages'
         Meteor.subscribe 'components'
         Meteor.subscribe 'utilities'
-        Meteor.subscribe 'getStartedPages'
 
 Router.route '/', name: 'home'
 

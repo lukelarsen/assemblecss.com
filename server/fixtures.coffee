@@ -74,8 +74,7 @@ if Components.find().count() == 0
                 }
             }
         ]
-
-        options: [
+        the_options: [
             {
                 variable: '$form-item-push-bottom'
                 default: '10px'
@@ -121,7 +120,7 @@ if Utilities.find().count() == 0
                 rendered: 'rendered css here'
             }
         ]
-        options:[
+        the_options: [
             {
                 variable: '$utility_option'
                 default: '10px'
@@ -131,6 +130,7 @@ if Utilities.find().count() == 0
                 default: '#808080'
             }
         ]
+        options_message: 'Message here'
 
 ## GET STARTED PAGES
 if GetStartedPages.find().count() == 0

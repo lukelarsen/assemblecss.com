@@ -199,13 +199,13 @@
  * ^Sidebar Grid
  */
 
- .content{
+.content{
     @extend %grid--center-980;
 
     @include media-query(portable) {
         padding: 0 25px;
     }
- }
+}
 
 .g-sub{
     @extend %grid;

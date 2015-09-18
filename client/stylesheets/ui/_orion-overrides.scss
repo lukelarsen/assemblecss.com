@@ -1,0 +1,31 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  ORION OVERRIDES
+*/
+
+
+
+
+
+/*------------------------------------*\
+    !ORION OVERRIDES
+\*------------------------------------*/
+
+.orion-bootstrap-admin{
+    .content{
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .table th{
+        background-color: transparent;
+        color: black;
+    }
+
+    .table th,
+    .table td{
+        font-size: 14px;
+    }
+}

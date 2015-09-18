@@ -5,7 +5,7 @@
             <div class="gc-sub-sidebar">
                 <ul class="nav  nav--stacked  nav--stacked--main">
                     {{ #each utilities }}
-                        {{ > utilityItem}}
+                        {{ > utilityItem }}
                     {{ /each }}
                 </ul>
             </div>
@@ -52,7 +52,7 @@
                         </div>
                     {{ /if }}
 
-                    {{ #if examples_sass }}
+                    {{ #if examples_rendered }}
                         <div class="component-section">
                             <h5>Rendered</h5>
                             {{ #each examples_rendered }}
@@ -61,7 +61,7 @@
                         </div>
                     {{ /if }}
 
-                    {{ #if options }}
+                    {{ #if the_options }}
                         {{ > options }}
                     {{ /if }}
 

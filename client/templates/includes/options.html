@@ -9,7 +9,7 @@
                </tr>
            </thead>
            <tbody>
-                {{ #each options }}
+                {{ #each the_options }}
                     <tr>
                         <td>{{ variable }}</td>
                         <td>{{ default }}</td>
@@ -19,7 +19,7 @@
         </table>
         {{ #if options_message }}
             <p class="hint">
-                {{ options_message}}
+                {{ options_message }}
             </p>
         {{ /if }}
     </section>
