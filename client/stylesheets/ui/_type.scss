@@ -33,8 +33,8 @@ body{
 }
 
 a{
+    transition: color 0.5s ease-out;
     color: color(orange, base);
-    transition: color .5s ease-out;
 
     &:hover{
         color: color(orange, dark);
@@ -89,6 +89,16 @@ h3,
     @include set-type(5, $ms-up1);
     margin-bottom: em-rhythm(3);
     font-family: $font-sans-bold;
+}
+
+section h3{
+    padding-top: 25px;
+    border-top: solid 1px #ccc;
+}
+
+section h3:first-of-type{
+    padding-top: 0px;
+    border-top: 0px;
 }
 
 h4,
@@ -188,7 +198,7 @@ hr{
 
 .hero h2{
     margin-bottom: 23px;
-    border: none;
+    border: 0;
 }
 
 .pink-base{
@@ -200,8 +210,8 @@ hr{
 }
 
 .hint{
-    margin-top: 5px;
     @include set-type(3, $ms-down1);
+    margin-top: 5px;
     color: color(gray, dark);
     font-family: $font-sans-italic;
 }

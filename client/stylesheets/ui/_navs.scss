@@ -81,19 +81,19 @@
  * ^Nav Main
  */
 
-.nav--main {
+.nav--main{
     .active a{
         border-bottom: solid 2px color(pink, dark);
         color: color(pink, dark);
 
         @media all and (max-width: 815px) {
-            border: 0px;
+            border: 0;
         }
     }
 
     @media all and (max-width: 815px) {
-        margin-top: -20px;
         width: 160px;
+        margin-top: -20px;
     }
 }
 
@@ -129,7 +129,7 @@
     background-color: color(gray, lighter);
 
     > li{
-        transition: border-left .5s ease-out;
+        transition: border-left 0.5s ease-out;
         border-left: solid 5px color(gray, lighter);
     }
 
