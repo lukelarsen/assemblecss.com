@@ -6,6 +6,10 @@
         HTML
         Class Options
  *  NAVS
+        Nav Left
+        Nav Main
+        Nav Stacked
+        Nav Stacked Main
         Nav Stacked Sub
  */
 
@@ -72,9 +76,25 @@
     }
 }
 
-.nav--main .active a{
-    border-bottom: solid 2px color(pink, dark);
-    color: color(pink, dark);
+
+/**
+ * ^Nav Main
+ */
+
+.nav--main {
+    .active a{
+        border-bottom: solid 2px color(pink, dark);
+        color: color(pink, dark);
+
+        @media all and (max-width: 815px) {
+            border: 0px;
+        }
+    }
+
+    @media all and (max-width: 815px) {
+        margin-top: -20px;
+        width: 160px;
+    }
 }
 
 
@@ -99,6 +119,11 @@
         }
     }
 }
+
+
+/**
+ * ^Nav Stacked Main
+ */
 
 .nav--stacked--main{
     background-color: color(gray, lighter);

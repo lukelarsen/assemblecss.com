@@ -74,16 +74,15 @@ h2,
 .h2{
     @include set-type(8, $ms-up2);
     margin-bottom: em-rhythm(3, $ms-up1);
+    border-bottom: solid 1px color(pink, dark);
     color: color(pink, dark);
     font-family: $font-sans-light-italic;
-    border-bottom: solid 1px color(pink, dark);
 }
 
 h2.underline,
 .h2.underline{
     border-bottom: solid 2px color(pink, dark);
 }
-
 
 h3,
 .h3{
@@ -104,7 +103,7 @@ h5,
 .h5,
 h6,
 .h6{
-    @include set-type(2);
+    @include set-type(4);
     margin-bottom: em-rhythm(3);
 }
 
