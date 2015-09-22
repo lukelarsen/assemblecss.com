@@ -60,16 +60,16 @@ header{
 .hero{
     margin-bottom: 50px;
     padding: 30px 50px 18px;
-    background: color(orange, base) url('images/background-small.jpg') top center no-repeat;
+    background: url('images/background-small.jpg') top center no-repeat;
     text-align: center;
 }
 
 .hero--large{
     padding: 120px 50px;
-    background: color(orange, base) url('images/background-large.jpg') top center no-repeat;
+    background: url('images/background-large.jpg') top center no-repeat;
 
     @include media-query(palm) {
-        padding: 116px 20px;
+        padding: 120px 20px;
     }
 }
 
