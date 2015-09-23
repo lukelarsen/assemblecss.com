@@ -34,10 +34,9 @@ Utilities.attachSchema new SimpleSchema(
         optional: true
         label: 'HTML Examples'
 
-    'examples_html.$.example':
-        type: String
+    'examples_html.$.example': orion.attribute('summernote',
         optional: true
-        label: 'Example'
+        label: 'Example')
 
     'examples_html.$.message':
         type: String
@@ -49,10 +48,9 @@ Utilities.attachSchema new SimpleSchema(
         optional: true
         label: 'Sass Examples'
 
-    'examples_sass.$.example':
-        type: String
+    'examples_sass.$.example': orion.attribute('summernote',
         optional: true
-        label: 'Example'
+        label: 'Example')
 
     'examples_sass.$.message':
         type: String
@@ -64,10 +62,9 @@ Utilities.attachSchema new SimpleSchema(
         optional: true
         label: 'Rendered Examples'
 
-    'examples_rendered.$.rendered':
-        type: String
+    'examples_rendered.$.rendered': orion.attribute('summernote',
         optional: true
-        label: 'Rendered'
+        label: 'Rendered')
 
     the_options:
         type: [Object]

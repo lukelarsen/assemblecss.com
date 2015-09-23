@@ -48,10 +48,9 @@ Components.attachSchema new SimpleSchema(
         optional: true
         label: 'HTML')
 
-    'block.example.sass':
-        type: String
+    'block.example.sass': orion.attribute('summernote',
         optional: true
-        label: 'Sass'
+        label: 'Sass')
 
     'block.example.rendered':
         type: String
@@ -83,15 +82,13 @@ Components.attachSchema new SimpleSchema(
         optional: true
         label: 'Example'
 
-    'modifiers.$.example.html':
-        type: String
+    'modifiers.$.example.html': orion.attribute('summernote',
         optional: true
-        label: 'HTML'
+        label: 'HTML')
 
-    'modifiers.$.example.sass':
-        type: String
+    'modifiers.$.example.sass': orion.attribute('summernote',
         optional: true
-        label: 'Sass'
+        label: 'Sass')
 
     'modifiers.$.example.rendered':
         type: String
@@ -123,15 +120,13 @@ Components.attachSchema new SimpleSchema(
         optional: true
         label: 'Example'
 
-    'extras.$.example.html':
-        type: String
+    'extras.$.example.html': orion.attribute('summernote',
         optional: true
-        label: 'HTML'
+        label: 'HTML')
 
-    'extras.$.example.sass':
-        type: String
+    'extras.$.example.sass': orion.attribute('summernote',
         optional: true
-        label: 'Sass'
+        label: 'Sass')
 
     'extras.$.example.rendered':
         type: String
