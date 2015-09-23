@@ -50,6 +50,8 @@ code{
     @include set-type(3, $ms-down1);
     display: inline-block;
     white-space: pre-wrap;
+    display: block;
+    margin-bottom: 5px;
 }
 
 pre{
