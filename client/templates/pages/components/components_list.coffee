@@ -1,3 +1,3 @@
 Template.componentsList.helpers
     components: ->
-        Components.find()
+        Components.find({}, {sort: {title: 1}})

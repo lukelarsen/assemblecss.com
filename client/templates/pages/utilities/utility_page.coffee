@@ -1,3 +1,3 @@
 Template.utilityPage.helpers
     utilities: ->
-        Utilities.find()
+        Utilities.find({}, {sort: {title: 1}})
