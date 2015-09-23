@@ -49,6 +49,7 @@
 code{
     @include set-type(3, $ms-down1);
     display: inline-block;
+    white-space: pre-wrap;
 }
 
 pre{

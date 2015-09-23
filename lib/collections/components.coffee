@@ -44,10 +44,9 @@ Components.attachSchema new SimpleSchema(
         optional: true
         label: 'Example'
 
-    'block.example.html':
-        type: String
+    'block.example.html': orion.attribute('summernote',
         optional: true
-        label: 'HTML'
+        label: 'HTML')
 
     'block.example.sass':
         type: String

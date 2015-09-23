@@ -17,18 +17,14 @@
         {{ #if example.html }}
             <div class="component-sub-section">
                 <h5 class="orange-base">html</h5>
-                <code>
-                    {{ example.html }}<br>
-                </code>
+                <code>{{ example.html }}</code>
             </div>
         {{ /if }}
 
         {{ #if example.sass }}
             <div class="component-sub-section">
                 <h5 class="pink-base">sass</h5>
-                <code>
-                    {{ example.sass }}<br>
-                </code>
+                <code>{{ example.sass }}</code>
             </div>
         {{ /if }}
 
@@ -36,7 +32,7 @@
             <div class="component-sub-section">
                 <h5>Rendered</h5>
                 <div class="rendered">
-                    {{ example.rendered }}
+                    {{{ example.rendered }}}
                 </div>
             </div>
         {{ /if }}

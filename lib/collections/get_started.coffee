@@ -36,9 +36,7 @@ GetStartedPages.attachSchema new SimpleSchema(
         optional: false
         label: 'Title'
 
-    #'sections.$.content':
     'sections.$.content': orion.attribute('summernote',
         optional: false
-        #label: 'Content'
         label: 'Content')
 )
