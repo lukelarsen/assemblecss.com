@@ -16,7 +16,7 @@
     !IMPORT RETURN FUNCTIONS
 \*------------------------------------*/
 
-@import '.meteor/local/build/programs/server/assets/packages/lukelarsen_assemble.css-meteor/assemble.css/base/general/general-returns';
+@import '.meteor/local/bower/assemble.css/base/general/general-returns';
 
 
 
@@ -53,7 +53,7 @@
     !IMPORT ASSEMBLE.CSS
 \*------------------------------------*/
 
-@import '.meteor/local/build/programs/server/assets/packages/lukelarsen_assemble.css-meteor/assemble.css/assemble';
+@import '.meteor/local/bower/assemble.css/assemble';
 
 
 
@@ -78,4 +78,5 @@
 @import 'ui/code';
 @import 'ui/helpers';
 @import 'ui/scaffolding';
+@import 'ui/scrollbars';
 @import 'ui/orion-overrides';

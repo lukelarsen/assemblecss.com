@@ -48,10 +48,9 @@
 // START YOUR CODE STYLES HERE
 code{
     @include set-type(3, $ms-down1);
-    display: inline-block;
-    white-space: pre-wrap;
     display: block;
     margin-bottom: 5px;
+    white-space: pre-wrap;
 }
 
 pre{

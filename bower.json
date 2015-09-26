@@ -1,0 +1,16 @@
+{
+  "name": "Assemblecss.com website",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "assemble.css": "~1.4.6"
+  },
+  "overrides": {
+    "assemble.css": {
+      "arch": [
+        "client"
+      ]
+    }
+  },
+  "private": true
+}

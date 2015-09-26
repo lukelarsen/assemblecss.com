@@ -57,7 +57,9 @@
                         <div class="component-section">
                             <h5>Rendered</h5>
                             {{ #each examples_rendered }}
-                                <code>{{ rendered }}</code>
+                                <div class="rendered">
+                                    {{{ rendered }}}
+                                </div>
                             {{ /each }}
                         </div>
                     {{ /if }}
