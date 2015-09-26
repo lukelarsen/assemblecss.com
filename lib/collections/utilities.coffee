@@ -66,6 +66,15 @@ Utilities.attachSchema new SimpleSchema(
         optional: true
         label: 'Rendered')
 
+    examples_rendered_visual:
+        type: [Object]
+        optional: true
+        label: 'Rendered Visual Examples'
+
+    'examples_rendered_visual.$.rendered': orion.attribute('summernote',
+        optional: true
+        label: 'Rendered Visually')
+
     the_options:
         type: [Object]
         optional: true

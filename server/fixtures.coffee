@@ -120,6 +120,11 @@ if Utilities.find().count() == 0
                 rendered: 'rendered css here'
             }
         ]
+        examples_rendered_visual: [
+            {
+                rendered: 'rendered visual html here'
+            }
+        ]
         the_options: [
             {
                 variable: '$utility_option'
