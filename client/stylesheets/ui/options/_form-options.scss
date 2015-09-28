@@ -151,7 +151,11 @@ $form-label-error-color:            #F00;
 
 /// Error message color for a field with errors.
 /// @type color
-$form-error-message:                #F00;
+$form-error-message-color:          #F00;
+
+/// Error message size for a field with errors.
+/// @type number
+$form-error-message-size:           10px;
 
 /// Border color of a field with errors.
 /// @type color
