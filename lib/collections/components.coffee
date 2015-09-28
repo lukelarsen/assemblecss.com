@@ -48,13 +48,28 @@ Components.attachSchema new SimpleSchema(
         optional: true
         label: 'HTML')
 
+    'block.example.html_message':
+        type: String
+        optional: true
+        label: 'HTML Message'
+
     'block.example.sass': orion.attribute('summernote',
         optional: true
         label: 'Sass')
 
+    'block.example.sass_message':
+        type: String
+        optional: true
+        label: 'Sass Message'
+
     'block.example.rendered': orion.attribute('summernote',
         optional: true
         label: 'Rendered')
+
+    'block.example.rendered_message':
+        type: String
+        optional: true
+        label: 'Rendered Message'
 
     modifiers:
         type: [Object]
@@ -85,13 +100,28 @@ Components.attachSchema new SimpleSchema(
         optional: true
         label: 'HTML')
 
+    'modifiers.$.example.html_message':
+        type: String
+        optional: true
+        label: 'HTML Message'
+
     'modifiers.$.example.sass': orion.attribute('summernote',
         optional: true
         label: 'Sass')
 
+    'modifiers.$.example.sass_message':
+        type: String
+        optional: true
+        label: 'Sass Message'
+
     'modifiers.$.example.rendered': orion.attribute('summernote',
         optional: true
         label: 'Rendered')
+
+    'modifiers.$.example.rendered_message':
+        type: String
+        optional: true
+        label: 'Rendered Message'
 
     extras:
         type: [Object]
@@ -122,13 +152,28 @@ Components.attachSchema new SimpleSchema(
         optional: true
         label: 'HTML')
 
+    'extras.$.example.html_message':
+        type: String
+        optional: true
+        label: 'HTML Message'
+
     'extras.$.example.sass': orion.attribute('summernote',
         optional: true
         label: 'Sass')
 
+    'extras.$.example.sass_message':
+        type: String
+        optional: true
+        label: 'Sass Message'
+
     'extras.$.example.rendered': orion.attribute('summernote',
         optional: true
         label: 'Rendered')
+
+    'extras.$.example.rendered_message':
+        type: String
+        optional: true
+        label: 'Rendered Message'
 
     the_options:
         type: [Object]

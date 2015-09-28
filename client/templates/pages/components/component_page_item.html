@@ -18,6 +18,9 @@
             <div class="component-sub-section">
                 <h5 class="orange-base">html</h5>
                 <code>{{ example.html }}</code>
+                {{ #if example.html_message }}
+                    <p class="hint">{{ example.html_message }}</p>
+                {{ /if }}
             </div>
         {{ /if }}
 
@@ -25,6 +28,9 @@
             <div class="component-sub-section">
                 <h5 class="pink-base">sass</h5>
                 <code>{{ example.sass }}</code>
+                {{ #if example.sass_message }}
+                    <p class="hint">{{ example.sass_message }}</p>
+                {{ /if }}
             </div>
         {{ /if }}
 
@@ -34,6 +40,9 @@
                 <div class="rendered">
                     {{{ example.rendered }}}
                 </div>
+                {{ #if example.rendered_message }}
+                    <p class="hint">{{ example.rendered_message }}</p>
+                {{ /if }}
             </div>
         {{ /if }}
     </div>
