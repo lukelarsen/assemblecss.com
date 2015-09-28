@@ -34,7 +34,7 @@
 
 /// Turn on/off forms for your application
 /// @type boolean
-$use-form:                          false;
+$use-form:                          true;
 
 
 
@@ -195,12 +195,12 @@ $form-focus-text-color:             #00F;
 
 /// Are you going to be using spoken forms?
 /// @type boolean
-$spoken-form:                       false;
+$spoken-form:                       true;
 
 /// Are you going to be using inline input items?
 /// @type boolean
-$input-inline:                      false;
+$input-inline:                      true;
 
 /// Are you going to be using input icon addons?
 /// @type boolean
-$input-addon:                       false;
+$input-addon:                       true;
