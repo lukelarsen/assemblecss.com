@@ -82,7 +82,7 @@
                 %form--palm-full
                 %form--palm-halves
                 %form--palm-quarters
-                %form--palm--fifths
+                %form--palm-fifths
 
                 %form-gutters-medium
                 %form-gutters-large
@@ -141,11 +141,38 @@
 \*------------------------------------*/
 
 // START YOUR FORMS STYLES HERE
+.form-fit{
+    @extend %form;
+    @extend %form--fit;
+}
+
+.form-full{
+    @extend %form;
+    @extend %form--full;
+}
+
+.form-halves{
+    @extend %form;
+    @extend %form--halves;
+    @extend %form--palm-full;
+}
+
+.form-thirds{
+    @extend %form;
+    @extend %form--thirds;
+    @extend %form--palm-full;
+}
+
 .form-quarters{
     @extend %form;
     @extend %form--quarters;
     @extend %form--palm-full;
-    // @extend %form-gutters-xlarge;
+}
+
+.form-fifths{
+    @extend %form;
+    @extend %form--fifths;
+    @extend %form--palm-full;
 }
 
 .form-item-half{
