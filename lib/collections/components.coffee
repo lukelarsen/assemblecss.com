@@ -39,6 +39,10 @@ Components.attachSchema new SimpleSchema(
         optional: true
         label: 'Requirement'
 
+    'block.usage': orion.attribute('summernote',
+        optional: true
+        label: 'Usage')
+
     'block.example':
         type: Object
         optional: true

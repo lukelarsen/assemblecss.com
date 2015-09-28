@@ -1,0 +1,42 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  DEMO ARROWS
+ */
+
+
+
+
+
+/*------------------------------------*\
+    !DEMO ARROWS
+\*------------------------------------*/
+
+.arrow{
+    display: block;
+    width: 120px;
+    height: 75px;
+    margin-bottom: 30px;
+    background-color: #000;
+}
+
+.arrow--bottom-right{
+    @include arrow(bottom, right, #000);
+}
+
+.arrow--bottom-left{
+    @include arrow(bottom, left, #000);
+}
+
+.arrow--top-right{
+    @include arrow(top, right, #000);
+}
+
+.arrow--left-top{
+    @include arrow(left, bottom, #000);
+}
+
+.arrow--right-bottom{
+    @include arrow(right, bottom, #000);
+}

@@ -8,6 +8,7 @@ if Components.find().count() == 0
                 { requirement: 'grids' }
                 { requirement: 'something else' }
             ]
+            usage: 'Usage directions.'
             example: {
                 html: '<h6>some html code</h6>'
                 sass: 'some Scss code'

@@ -25,6 +25,12 @@
                         </div>
                     {{ /if }}
 
+                    {{ #if block.usage }}
+                        <div class="component-section">
+                            <h4>Usage</h4>
+                            {{{ block.usage }}}
+                        </div>
+                    {{ /if }}
 
                     {{ #if block.example }}
                         <div class="component-section">
