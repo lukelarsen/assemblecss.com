@@ -143,7 +143,11 @@
 // START YOUR FORMS STYLES HERE
 .form-quarters{
     @extend %form;
-    @extend %form--thirds;
+    @extend %form--quarters;
     @extend %form--palm-full;
-    @extend %form-gutters-xlarge;
+    // @extend %form-gutters-xlarge;
+}
+
+.form-item-half{
+    @extend %form__item--half;
 }
