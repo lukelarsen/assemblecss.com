@@ -175,6 +175,22 @@
     @extend %form--palm-full;
 }
 
+.form-item-full{
+    @extend %form__item--full;
+}
+
 .form-item-half{
     @extend %form__item--half;
+}
+
+.form-item-third{
+    @extend %form__item--third;
+}
+
+.form-item-quarter{
+    @extend %form__item--quarter;
+}
+
+.form-item-fifth{
+    @extend %form__item--fifth;
 }
