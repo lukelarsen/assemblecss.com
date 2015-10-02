@@ -270,6 +270,13 @@ div[class^='g-demo-']{
     @extend %grid--fifths;
 }
 
+.g-demo-halves--gutters-small{
+    @extend %grid;
+    @extend %grid--flex-cells;
+    @extend %grid--halves;
+    @extend %gutters-small;
+}
+
 .g-demo-thirds--gutters-small{
     @extend %grid;
     @extend %grid--flex-cells;
@@ -367,7 +374,7 @@ div[class^='g-demo-']{
     @extend %grid__item--full;
 }
 
-.gc-demo--halve{
+.gc-demo--half{
     @extend %grid__item;
     @extend %grid__item--half;
 }
