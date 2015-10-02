@@ -393,3 +393,15 @@ div[class^='g-demo-']{
     @extend %grid__item;
     @extend %grid__item--fifth;
 }
+
+.gc-demo--top{
+    %grid__item--top;
+}
+
+.gc-demo--bottom{
+    %grid__item--bottom;
+}
+
+.gc-demo--center{
+    %grid__item--center;
+}
