@@ -27,7 +27,7 @@ body{
     margin: 0;
     padding: 0;
     color: $text-color;
-    font-family: $font-sans;
+    font-family: $font-sans-body;
     font-weight: 400;
     line-height: $base-line-height;
 }
@@ -57,7 +57,7 @@ h6,
     padding-top: 0;
     padding-bottom: 0;
     font-family: $font-sans;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 // [1] The first value sets the line-height. The second is the font size. It's recommended to keep on the modular scale by using the $ms-upX/$ms-downX variables.
@@ -76,7 +76,7 @@ h2,
     margin-bottom: em-rhythm(3, $ms-up1);
     border-bottom: solid 1px color(pink, dark);
     color: color(pink, dark);
-    font-family: $font-sans-light-italic;
+    font-family: $font-sans-italic;
 }
 
 h2.underline,
@@ -88,7 +88,7 @@ h3,
 .h3{
     @include set-type(5, $ms-up1);
     margin-bottom: em-rhythm(3);
-    font-family: $font-sans-bold;
+    font-family: $font-sans-bold-italic;
 }
 
 section h3{
@@ -106,7 +106,7 @@ h4,
     @include set-type(3);
     margin-bottom: em-rhythm(3);
     color: color(gray, darkest);
-    font-family: $font-sans-bold-italic;
+    font-family: $font-sans-bold;
 }
 
 h5,
@@ -139,6 +139,7 @@ p{
     padding-bottom: 0;
     word-wrap: break-word;
     hyphens: auto;
+    color: color(gray, dark);
 
     @media (min-width: 43.75em) {
         @if $paragraph-justify {
@@ -213,5 +214,5 @@ hr{
     @include set-type(3, $ms-down1);
     margin-top: 5px;
     color: color(gray, dark);
-    font-family: $font-sans-italic;
+    font-family: $font-sans-body;
 }

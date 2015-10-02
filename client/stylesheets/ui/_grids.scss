@@ -10,6 +10,7 @@
         Equals
         Single
         Sidebar Grid
+        Demos
 */
 
 
@@ -220,4 +221,108 @@
 .gc-sub-content{
     @extend %grid__item--portable-full;
     @extend %grid__item;
+}
+
+/**
+ * ^DEMOS
+ */
+
+div[class^='g-demo-']{
+    // background-color: #ddd;
+
+    .gc-demo{
+            // background-color: #ccc;
+
+        .gc-content{
+            background-color: #ccc;
+        }
+    }
+}
+
+.g-demo-fit{
+    @extend %grid;
+    @extend %grid--fit;
+}
+
+.g-demo-full{
+    @extend %grid;
+    @extend %grid--full;
+}
+
+.g-demo-halves{
+    @extend %grid;
+    @extend %grid--halves;
+}
+
+.g-demo-thirds{
+    @extend %grid;
+    @extend %grid--thirds;
+}
+
+.g-demo-quarters{
+    @extend %grid;
+    @extend %grid--quarters;
+}
+
+.g-demo-fifths{
+    @extend %grid;
+    @extend %grid--flex-cells;
+    @extend %grid--fifths;
+}
+
+.g-demo-thirds--gutters-small{
+    @extend %grid;
+    @extend %grid--flex-cells;
+    @extend %grid--thirds;
+    @extend %gutters-small;
+}
+
+.g-demo-thirds--gutters-medium{
+    @extend %grid;
+    @extend %grid--thirds;
+    @extend %gutters-medium;
+}
+
+.g-demo-thirds--gutters-large{
+    @extend %grid;
+    @extend %grid--thirds;
+    @extend %gutters-large;
+}
+
+.g-demo-thirds--gutters-xlarge{
+    @extend %grid;
+    @extend %grid--thirds;
+    @extend %gutters-xlarge;
+}
+
+.g-demo--top{
+    @extend %grid--top;
+}
+
+.g-demo--bottom{
+    @extend %grid--bottom;
+}
+
+.g-demo--center{
+    @extend %grid--center;
+}
+
+.g-demo--palm-full{
+    @extend %grid--palm-full;
+}
+
+.g-demo--palm-halves{
+    @extend %grid--palm-halves;
+}
+
+.g-demo--palm-thirds{
+    @extend %grid--palm-thirds;
+}
+
+.g-demo--palm-quarters{
+    @extend %grid--palm-quarters;
+}
+
+.g-demo--palm-fifths{
+    @extend %grid--palm-fifths;
 }

@@ -48,6 +48,10 @@ $use-type:                          true;
 ///         )
 ///     );
 $fonts: (
+    lato_regular: (
+        name: 'Lato Regular',
+        src:  'fonts/Lato_Regular.woff'
+    ),
     mission_gothic_regular: (
         name: 'Mission Gothic Regular',
         src:  'fonts/Mission_Gothic_Regular.woff'
@@ -76,23 +80,27 @@ $fonts: (
  *      These are used so you can use assign fonts to elements in your project
  */
 
-/// The sans-serif font stack
+/// The sans body copy font stack
+/// @type string
+$font-sans-body:                    'Lato Regular', Helvetica, Arial, sans-serif !default;
+
+/// The sans font stack
 /// @type string
 $font-sans:                         'Mission Gothic Regular', Helvetica, Arial, sans-serif !default;
 
-/// The sans-serif italic font stack
+/// The sans italic font stack
 /// @type string
 $font-sans-italic:                  'Mission Gothic Regular Italic', Helvetica, Arial, sans-serif !default;
 
-/// The sans-serif bold font stack
+/// The sans bold font stack
 /// @type string
 $font-sans-bold:                    'Mission Gothic Bold', Helvetica, Arial, sans-serif !default;
 
-/// The sans-serif bold italic font stack
+/// The sans bold italic font stack
 /// @type string
 $font-sans-bold-italic:             'Mission Gothic Bold Italic', Helvetica, Arial, sans-serif !default;
 
-/// The sans-serif italic font stack
+/// The sans italic font stack
 /// @type string
 $font-sans-light-italic:            'Mission Gothic Light Italic', Helvetica, Arial, sans-serif !default;
 

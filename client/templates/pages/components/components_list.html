@@ -5,11 +5,13 @@
     <div class="content">
         <div class="g-sub">
             <div class="gc-sub-sidebar">
-                <ul class="nav  nav--stacked  nav--stacked--main">
-                    {{ #each components }}
-                        {{ > componentItem}}
-                    {{ /each }}
-                </ul>
+                <div class="gc-content">
+                    <ul class="nav  nav--stacked  nav--stacked--main">
+                        {{ #each components }}
+                            {{ > componentItem}}
+                        {{ /each }}
+                    </ul>
+                </div>
             </div>
             <div class="gc-sub-content">
                 Content
