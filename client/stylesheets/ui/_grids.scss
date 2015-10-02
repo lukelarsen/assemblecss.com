@@ -50,7 +50,7 @@
 
  * Apply on .g-*
  * Block:       %grid
-   Modifiers:   %grid--flex-cells (This will make cells the same height.)
+   Modifiers:   %grid--no-flex-cells (This will make cells not the same height.)
 
                 %grid--fit
                 %grid--full
@@ -277,6 +277,13 @@ div[class^='g-demo-']{
     @extend %gutters-small;
 }
 
+.g-demo-quarters--gutters-small{
+    @extend %grid;
+    @extend %grid--flex-cells;
+    @extend %grid--quarters;
+    @extend %gutters-small;
+}
+
 .g-demo-thirds--gutters-medium{
     @extend %grid;
     @extend %grid--thirds;
@@ -325,4 +332,57 @@ div[class^='g-demo-']{
 
 .g-demo--palm-fifths{
     @extend %grid--palm-fifths;
+}
+
+.g-demo--gutters-palm-small{
+    @extend %grid;
+    @extend %grid--thirds;
+    @extend %gutters-medium;
+    @extend %gutters--palm-small;
+}
+
+.g-demo--gutters-palm-medium{
+    @extend %grid;
+    @extend %grid--thirds;
+    @extend %gutters-large;
+    @extend %gutters--palm-medium;
+}
+
+.g-demo--gutters-palm-large{
+    @extend %grid;
+    @extend %grid--thirds;
+    @extend %gutters-medium;
+    @extend %gutters--palm-large;
+}
+
+.g-demo--gutters-palm-xlarge{
+    @extend %grid;
+    @extend %grid--thirds;
+    @extend %gutters-medium;
+    @extend %gutters--palm-xlarge;
+}
+
+.gc-demo--full{
+    @extend %grid__item;
+    @extend %grid__item--full;
+}
+
+.gc-demo--halve{
+    @extend %grid__item;
+    @extend %grid__item--half;
+}
+
+.gc-demo--third{
+    @extend %grid__item;
+    @extend %grid__item--third;
+}
+
+.gc-demo--quarter{
+    @extend %grid__item;
+    @extend %grid__item--quarter;
+}
+
+.gc-demo--fifth{
+    @extend %grid__item;
+    @extend %grid__item--fifth;
 }
