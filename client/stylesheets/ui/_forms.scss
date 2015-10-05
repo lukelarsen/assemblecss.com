@@ -194,3 +194,15 @@
 .form-item-fifth{
     @extend %form__item--fifth;
 }
+
+.form-gutters-medium{
+    @extend %form-gutters-medium;
+}
+
+.form-gutters-large{
+    @extend %form-gutters-large;
+}
+
+.form-gutters-xlarge{
+    @extend %form-gutters-xlarge;
+}
