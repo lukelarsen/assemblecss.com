@@ -92,10 +92,10 @@
 
                 (You can replace 'palm' with: lap, portable, desk, or wide.)
                 %grid__item--palm-full
-                %grid__item--lap-full
-                %grid__item--portable-full
-                %grid__item--desk-full
-                %grid__item--wide-full
+                %grid__item--palm-halves
+                %grid__item--palm-thirds
+                %grid__item--palm-quarters
+                %grid__item--palm-fifths
 
                 %grid__item--top
                 %grid__item--bottom
@@ -407,4 +407,24 @@ div[class^='g-demo-']{
 .gc-demo--center{
     @extend %grid__item;
     @extend %grid__item--center;
+}
+
+.gc-demo--portable-full{
+    @extend %grid__item--palm-full;
+}
+
+.gc-demo--portable-half{
+    @extend %grid__item--palm-half;
+}
+
+.gc-demo--portable-third{
+    @extend %grid__item--palm-third;
+}
+
+.gc-demo--portable-quarter{
+    @extend %grid__item--palm-quarter;
+}
+
+.gc-demo--portable-fifth{
+    @extend %grid__item--palm-fifth;
 }
