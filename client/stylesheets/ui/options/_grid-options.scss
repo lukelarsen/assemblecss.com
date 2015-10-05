@@ -44,7 +44,8 @@ $use-grids:                         true;
 /// ex. %grid--fixed-800
 /// @type map
 $grid-center-widths: (
-    '630'
+    '630',
+    '600',
     '980'
 );
 
@@ -60,5 +61,6 @@ $grid-center-widths: (
 /// ex. %grid__item--fixed-200
 /// @type map
 $grid-item-fixed-widths: (
-    '235'
+    '235',
+    '400'
 );

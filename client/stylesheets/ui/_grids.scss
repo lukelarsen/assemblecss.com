@@ -428,3 +428,14 @@ div[class^='g-demo-']{
 .gc-demo--portable-fifth{
     @extend %grid__item--palm-fifth;
 }
+
+.g-demo--center-600{
+    @extend %grid;
+    @extend %grid--thirds;
+    @extend %gutters-small;
+    @extend %grid--center-600;
+}
+
+.gc-demo--fixed-400{
+    @extend %grid__item--fixed-400;
+}
