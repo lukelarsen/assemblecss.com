@@ -251,3 +251,23 @@
     @extend %form--halves;
     @extend %form-gutters--palm-xlarge;
 }
+
+.form-item--palm-full{
+    @extend %form__item--palm-full;
+}
+
+.form-item--palm-half{
+    @extend %form__item--palm-half;
+}
+
+.form-item--palm-third{
+    @extend %form__item--palm-third;
+}
+
+.form-item--palm-quarter{
+    @extend %form__item--palm-quarter;
+}
+
+.form-item--palm-fifth{
+    @extend %form__item--palm-fifth;
+}
