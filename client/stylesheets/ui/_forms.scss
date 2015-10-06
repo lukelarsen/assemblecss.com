@@ -226,3 +226,20 @@
 .form-palm-fifths{
     @extend %form--palm-fifths;
 }
+
+.form-gutters-palm-small{
+    @extend %form-gutters-large;
+    @extend %form-gutters--palm-small;
+}
+
+.form-gutters-palm-medium{
+    @extend %form-gutters--palm-medium;
+}
+
+.form-gutters-palm-large{
+    @extend %form-gutters--palm-large;
+}
+
+.form-gutters-palm-xlarge{
+    @extend %form-gutters--palm-xlarge;
+}
