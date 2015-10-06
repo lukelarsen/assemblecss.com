@@ -206,3 +206,23 @@
 .form-gutters-xlarge{
     @extend %form-gutters-xlarge;
 }
+
+.form-palm-full{
+    @extend %form--palm-full;
+}
+
+.form-palm-halves{
+    @extend %form--palm-halves;
+}
+
+.form-palm-thirds{
+    @extend %form--palm-thirds;
+}
+
+.form-palm-quarters{
+    @extend %form--palm-quarters;
+}
+
+.form-palm-fifths{
+    @extend %form--palm-fifths;
+}
