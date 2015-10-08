@@ -102,9 +102,14 @@ $form-item-file-padding:            6px;
 /// @type number
 $form-check-list-vertical-spacing:  5px;
 
-/// Padding for spokem form items.
+/// Padding for spokem form inputs.
 /// @type number
-$form-spoken-padding:               3px 4px;
+$form-spoken-padding-input:         3px 4px;
+
+/// Padding for spokem form selects.
+/// @type number
+$form-spoken-padding-select:        1px 1.67em 3px 4px;
+
 
 /// Height for spoken form items.
 /// @type number
@@ -148,6 +153,11 @@ $customize-webkit-forms:            true;
 /// @type string
 $webkit-select-arrow:               url('../images/select-arrow.svg');
 
+/// Set a ypos for the image used in selects.
+/// @type number
+$form-select-arrow-ypos:            13px;
+$form-select-arrow-spoken-ypos:     8px;
+
 
 /**
  * ^Errors
@@ -184,7 +194,7 @@ $form-error-border-type:            solid;
 
 /// Color of a form that is disabled.
 /// @type color
-$form-disabled-color:               #808080;
+$form-disabled-color:               #ccc;
 
 
 /**
@@ -207,7 +217,7 @@ $form-focus-text-color:             #00F;
 
 /// Are you going to be using spoken forms?
 /// @type boolean
-$spoken-form:                       true;
+$form-spoken:                       true;
 
 /// Are you going to be using inline input items?
 /// @type boolean
