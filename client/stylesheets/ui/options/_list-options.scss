@@ -58,7 +58,7 @@ $list-colored-padding-left:         30px;
 /// Turn on/off a class that will remove bullets.
 /// If true a class of .list-no-bullets will be generated.
 /// @type boolean
-$list-no-bullets:                   false;
+$list-no-bullets:                   true;
 
 /// Turn on/off colored lists. This will allow you to color the bullets of a list.
 /// If true the class you can use is .list-colored.
