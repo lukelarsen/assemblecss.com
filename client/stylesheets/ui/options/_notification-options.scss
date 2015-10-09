@@ -69,19 +69,19 @@ $notification-space-from-edge:      20px;
 
 /// Turn on/off notifications in the bottom right.
 /// @type boolean
-$notification-bottom-right:         false;
+$notification-bottom-right:         true;
 
 /// Turn on/off notifications in the bottom left.
 /// @type boolean
-$notification-bottom-left:          false;
+$notification-bottom-left:          true;
 
 /// Turn on/off notifications in the top right.
 /// @type boolean
-$notification-top-right:            false;
+$notification-top-right:            true;
 
 /// Turn on/off notifications in the top left.
 /// @type boolean
-$notification-top-left:             false;
+$notification-top-left:             true;
 
 /**
  * ^Notification Colors
