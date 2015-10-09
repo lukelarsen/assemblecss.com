@@ -30,11 +30,6 @@ $use-media:                         true;
     !MODIFIER VARIABLES
 \*------------------------------------*/
 
-/// Turn on/off the ability to have the media object scroll.
-/// If true the class that will be generated for use is .media--scroll
-/// @type boolean
-$media--scroll:                     true;
-
 /// Turn on/off the Viemo player. This will style Viemo players to look better.
 /// If true the class you can use is .media--vimeo.
 /// @type boolean

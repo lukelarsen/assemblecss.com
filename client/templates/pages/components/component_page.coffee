@@ -5,4 +5,5 @@ Template.componentPage.helpers
 Template.componentPage.onRendered ->
     iconic = IconicJS()
     iconic.inject 'img.iconic'
+    modal = new VanillaModal({})
     return
