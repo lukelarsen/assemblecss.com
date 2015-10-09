@@ -64,7 +64,7 @@ $breadcrumb-a-left:                 13px;
 /// Turn on/off fit navigations in your application.
 /// If set to true you can use the class .nav--fit. It requires .nav.
 /// @type boolean
-$nav--fit:                          false;
+$nav--fit:                          true;
 
 /// Turn on/off stacked navigations in your application.
 /// If set to true you can use the class .nav--stacked. It requires .nav.
@@ -74,12 +74,12 @@ $nav--stacked:                      true;
 /// Turn on/off center navigations in your application.
 /// If set to true you can use the class .nav--center. It requires .nav.
 /// @type boolean
-$nav--center:                       false;
+$nav--center:                       true;
 
 /// Turn on/off right navigations in your application.
 /// If set to true you can use the class .nav--right. It requires .nav.
 /// @type boolean
-$nav--right:                        false;
+$nav--right:                        true;
 
 /// Turn on/off left navigations in your application.
 /// If set to true you can use the class .nav--left. It requires .nav.
@@ -89,12 +89,12 @@ $nav--left:                         true;
 /// Turn on/off space between navigations in your application.
 /// If set to true you can use the class .nav--space-between. It requires .nav.
 /// @type boolean
-$nav--space-between:                false;
+$nav--space-between:                true;
 
 /// Turn on/off space around navigations in your application.
 /// If set to true you can use the class .nav--space-around. It requires .nav.
 /// @type boolean
-$nav--space-around:                 false;
+$nav--space-around:                 true;
 
 
 /**
@@ -104,24 +104,24 @@ $nav--space-around:                 false;
 /// Turn on/off keyword navigations in your application.
 /// If set to true you can use the class .nav--keywords. It requires .nav.
 /// @type boolean
-$nav--keywords:                     false;
+$nav--keywords:                     true;
 
 /// Turn on/off pagination navigations in your application.
 /// If set to true you can use the class .nav--pagination. It requires .nav.
 /// @type boolean
-$nav--pagination:                   false;
+$nav--pagination:                   true;
 
 /// Turn on/off breadcrumb navigations in your application.
 /// If set to true you can use the class .nav--breadcrumb. It requires .nav.
 /// @type boolean
-$nav--breadcrumb:                   false;
+$nav--breadcrumb:                   true;
 
 /// Turn on/off breadcrumb path navigations in your application.
 /// If set to true you can use the class .nav--breadcrumb--path. It requires .nav & .nav--breadcrumb.
 /// @type boolean
-$nav--breadcrumb--path:             false;
+$nav--breadcrumb--path:             true;
 
 /// Turn on/off custom breadcrumb navigations in your application.
 /// If set to true you can use the class .nav--breadcrumb--custom. It requires .nav & .nav--breadcrumb.
 /// @type boolean
-$nav--breadcrumb--custom:           false;
+$nav--breadcrumb--custom:           true;
