@@ -79,7 +79,7 @@ $tip-line-height:                   15px;
 
 /// Tuen on/off if tips can have fixed widths.
 /// @type boolean
-$tip-enable-width:                  false;
+$tip-enable-width:                  true;
 
 /// Set the width of tips. Needs $tip-enable-width to be true.
 /// @type number
