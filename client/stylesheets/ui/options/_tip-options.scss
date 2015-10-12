@@ -73,6 +73,11 @@ $tip-font-size:                     12px;
 /// @type number
 $tip-line-height:                   15px;
 
+/// Turn on the ability to put the tip
+///container at the right.
+/// @type boolean
+$tip-container--right:              true;
+
 
 
 
@@ -115,7 +120,11 @@ $tip-enable-top:                    true;
 
 /// Set how far from the top the top tips should be.
 /// @type number
-$tip-top-position:                  20px;
+$tip-top-top-position:              20px;
+
+/// Set how far from the rigft the top tips should be.
+/// @type number
+$tip-top-right-position:            26px;
 
 /// Turn on/off bottom tips.
 /// If set to true you can use the class .tip--bottom. It requires .tip.
@@ -124,7 +133,11 @@ $tip-enable-bottom:                 true;
 
 /// Set how far from the bottom the bottom tips should be.
 /// @type number
-$tip-bottom-position:               20px;
+$tip-bottom-bottom-position:        20px;
+
+/// Set how far from the right the bottom tips should be.
+/// @type number
+$tip-bottom-right-position:         26px;
 
 // Using right or left will make the notification a fixed width.
 // Width value is set with $tip-width
@@ -136,7 +149,11 @@ $tip-enable-right:                  true;
 
 /// Set how far from the right the right tips should be.
 /// @type number
-$tip-right-position:                -$tip-width - 8;
+$tip-right-right-position:          -$tip-width - 8;
+
+/// Set how far from the top the right tips should be.
+/// @type number
+$tip-right-top-position:            -3px;
 
 /// Turn on/off left tips.
 /// If set to true you can use the class .tip--left. It requires .tip.
@@ -144,4 +161,8 @@ $tip-enable-left:                   true;
 
 /// Set how far from the left the left tips should be.
 /// @type number
-$tip-left-position:                 -$tip-width - 33;
+$tip-left-left-position:            -$tip-width - 33;
+
+/// Set how far from the top the left tips should be.
+/// @type number
+$tip-left-top-position:             -3px;
