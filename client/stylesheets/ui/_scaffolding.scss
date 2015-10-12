@@ -110,4 +110,8 @@ footer{
     @include media-query(palm) {
         padding: 25px;
     }
+
+    a:hover{
+        color: #FFF;
+    }
 }
