@@ -21,7 +21,7 @@
 
     <div class="tip-container">
         <span class="tip-trigger">?</span>
-        <span class="tip  tip--left"> 
+        <span class="tip  tip--left">
             Tip Content Here
             <span class="tip__close">&#215;</span>
         </span>
@@ -51,3 +51,9 @@
 
 // START YOUR TOOL TIP STYLES HERE
 
+.tip-demo{
+    .tip{
+        opacity: 1;
+        visibility: visible;
+    }
+}

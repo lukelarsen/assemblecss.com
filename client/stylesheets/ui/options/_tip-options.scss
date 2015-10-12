@@ -59,7 +59,11 @@ $tip-close-text-hover-color:        #FFF;
 
 /// Set the tip padding.
 /// @type number
-$tip-padding:                       8px 10px 5px;
+$tip-padding:                       5px 10px 5px;
+
+/// Set the tip close padding.
+/// @type number
+$tip-close-padding:                 5px 9px 8px;
 
 /// Set the tip font size.
 /// @type number
