@@ -15,11 +15,12 @@
 \*------------------------------------*/
 
 .align-center{
-    text-align: center;
     display: block;
+    text-align: center;
 }
 
 .align-right{
+    display: block !important;
     text-align: right;
 }
 
